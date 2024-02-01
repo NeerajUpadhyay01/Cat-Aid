@@ -252,12 +252,12 @@ footer .contact {
 
 .content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   justify-items: center;
 }
 
 .content span {
-  width: 200px;
+  width: 180px;
   margin-top: 10px;
   display: flex;
   justify-content: center;
