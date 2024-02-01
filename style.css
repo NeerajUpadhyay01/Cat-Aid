@@ -45,7 +45,7 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   justify-content: space-between;
   height: 80px;
-  padding: 0 40px;
+  padding: 0 10px;
 }
 
 .logo {
@@ -79,6 +79,15 @@ body::-webkit-scrollbar-thumb {
   font-style: normal;
 }
 
+@media screen and (max-width: 400px) {
+  .navItems{
+    width: 240px;
+  }
+  .navItem{
+    font-size: 20px;
+  }
+}
+
 .navItem:hover {
   opacity: 1;
   text-decoration: underline;
@@ -90,7 +99,7 @@ body::-webkit-scrollbar-thumb {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
   width: 300px;
-  height: 200px;
+  height: 250px;
   top: 200px;
   left: 30px;
   font-family: "poppins";
@@ -218,8 +227,9 @@ body::-webkit-scrollbar-thumb {
   box-shadow: 0 0 10px rgba(15, 21, 37, 1) inset;
 }
 
-#about ul {
+#lists {
   margin: 0;
+  padding: 0 40px 0;
 }
 
 #about h2 {
@@ -227,6 +237,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 30px;
   letter-spacing: 5px;
   margin: 0;
+  padding-top: 10px;
   margin-bottom: 5px;
   text-align: center;
   text-decoration: underline;
@@ -235,7 +246,7 @@ body::-webkit-scrollbar-thumb {
 footer .contact {
   width: 100%;
   min-height: 160px;
-  padding-top: 30px;
+  padding-top: 10px;
   background-color: rgba(15, 21, 37, 1);
   font-family: "poppins";
   color: rgb(171, 163, 163);
@@ -257,7 +268,7 @@ footer .contact {
 }
 
 .content span {
-  width: 180px;
+  width: 190px;
   margin-top: 10px;
   display: flex;
   justify-content: center;
